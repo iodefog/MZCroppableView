@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UMUFPBannerView.h"
 
 @class MZCroppableView;
 @interface OperationViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
@@ -14,5 +15,7 @@
     IBOutlet UIImageView *croppingImageView;
     
     MZCroppableView *mzCroppableView;
+    
+    UMUFPBannerView *banner;
 }
 @end

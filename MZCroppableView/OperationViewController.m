@@ -47,6 +47,14 @@
         [itemsArray addObject:barItem];
     }
     self.navigationItem.leftBarButtonItems = itemsArray;
+    
+    banner = [[UMUFPBannerView alloc] initWithFrame:CGRectMake((self.view.bounds.size.width-320)/2, self.view.bounds.size.height-50, 320, 50) appKey:UMAPPKEY slotId:nil currentViewController:self];
+    banner.mTextColor = [UIColor whiteColor];
+    banner.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin;
+    banner.delegate = (id<UMUFPBannerViewDelegate>)self;
+    [self.view addSubview:banner];
+    [banner requestPromoterDataInBackground];
+
 }
 
 - (void)barButtonTapped:(UIBarButtonItem *)barItem{
@@ -69,7 +77,7 @@
 - (void)postPicker{
     UIImagePickerController * picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
-    picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
     [self presentModalViewController:picker animated:YES];
 }
 
@@ -202,13 +210,31 @@
 {
     UIImage *croppedImage = [mzCroppableView deleteBackgroundOfImage:croppingImageView];
     
-    [[TKAlertCenter defaultCenter] postAlertWithMessage:@"图片为空或者操作失败，请重试"];
+    UIImageWriteToSavedPhotosAlbum(croppedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
-    UIImageWriteToSavedPhotosAlbum(croppedImage, self, nil, nil);
-    
-    NSString *path = [NSHomeDirectory() stringByAppendingString:@"/Documents/final.png"];
-    [UIImagePNGRepresentation(croppedImage) writeToFile:path atomically:YES];
-    
-    NSLog(@"cropped image path: %@",path);
+//    [self resetButtonTapped:nil];
+//    UIImageWriteToSavedPhotosAlbum(croppedImage, self, nil, nil);
 }
+
+#pragma mark - UMUFPBannerView delegate methods
+
+//该方法在广告获取成功时调用
+- (void)UMUFPBannerView:(UMUFPBannerView *)_banner didLoadDataFinish:(NSInteger)promotersAmount {
+    
+    NSLog(@"%s, amount:%d", __PRETTY_FUNCTION__, promotersAmount);
+}
+
+//该方法在广告获取失败时调用
+- (void)UMUFPBannerView:(UMUFPBannerView *)banner didLoadDataFailWithError:(NSError *)error {
+    
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+//该方法在广告被点击后调用
+- (void)UMUFPBannerView:(UMUFPBannerView *)_banner didClickedPromoterAtIndex:(NSInteger)index {
+    
+    NSLog(@"%s, index:%d", __PRETTY_FUNCTION__, index);
+}
+
+
 @end

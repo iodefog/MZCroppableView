@@ -19,25 +19,29 @@
 		8887E532188A63F500398C43 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E531188A63F500398C43 /* CoreTelephony.framework */; };
 		8887E534188A63FD00398C43 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E533188A63FD00398C43 /* libstdc++.dylib */; };
 		8887E536188A640300398C43 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E535188A640300398C43 /* libz.dylib */; };
-		8887E5AB188AB6C100398C43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E58A188AB6C100398C43 /* AppDelegate.m */; };
-		8887E5AC188AB6C100398C43 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8887E58C188AB6C100398C43 /* 1.jpg */; };
-		8887E5AD188AB6C100398C43 /* MZCroppableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E58E188AB6C100398C43 /* MZCroppableView.m */; };
-		8887E5AE188AB6C100398C43 /* UIBezierPath-Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E590188AB6C100398C43 /* UIBezierPath-Points.m */; };
-		8887E5AF188AB6C100398C43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887E591188AB6C100398C43 /* Default.png */; };
-		8887E5B0188AB6C100398C43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887E592188AB6C100398C43 /* Default@2x.png */; };
-		8887E5B1188AB6C100398C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8887E593188AB6C100398C43 /* InfoPlist.strings */; };
-		8887E5B2188AB6C100398C43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887E595188AB6C100398C43 /* icon.png */; };
-		8887E5B3188AB6C100398C43 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887E596188AB6C100398C43 /* icon@2x.png */; };
-		8887E5B4188AB6C100398C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E597188AB6C100398C43 /* main.m */; };
-		8887E5B5188AB6C100398C43 /* MZCroppableView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8887E598188AB6C100398C43 /* MZCroppableView-Info.plist */; };
-		8887E5B6188AB6C100398C43 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E59B188AB6C100398C43 /* OperationViewController.m */; };
-		8887E5B7188AB6C100398C43 /* QQApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E59D188AB6C100398C43 /* QQApiHelper.m */; };
-		8887E5B8188AB6C100398C43 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E59F188AB6C100398C43 /* libWeChatSDK.a */; };
-		8887E5B9188AB6C100398C43 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E5A2188AB6C100398C43 /* TencentOpenAPI.framework */; };
-		8887E5BA188AB6C100398C43 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8887E5A3188AB6C100398C43 /* TencentOpenApi_IOS_Bundle.bundle */; };
-		8887E5BB188AB6C100398C43 /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E5A6188AB6C100398C43 /* TKAlertCenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8887E5BC188AB6C100398C43 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E5A8188AB6C100398C43 /* UIView+TKCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8887E5BD188AB6C100398C43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887E5AA188AB6C100398C43 /* ViewController.m */; };
+		88A780CA18ACC14100CE0B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A7809E18ACC14100CE0B8A /* AppDelegate.m */; };
+		88A780CB18ACC14100CE0B8A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A780A018ACC14100CE0B8A /* 1.jpg */; };
+		88A780CC18ACC14100CE0B8A /* MZCroppableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780A218ACC14100CE0B8A /* MZCroppableView.m */; };
+		88A780CD18ACC14100CE0B8A /* UIBezierPath-Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780A418ACC14100CE0B8A /* UIBezierPath-Points.m */; };
+		88A780CE18ACC14100CE0B8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A780A518ACC14100CE0B8A /* Default.png */; };
+		88A780CF18ACC14100CE0B8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A780A618ACC14100CE0B8A /* Default@2x.png */; };
+		88A780D018ACC14100CE0B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A780A718ACC14100CE0B8A /* InfoPlist.strings */; };
+		88A780D118ACC14100CE0B8A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A780A918ACC14100CE0B8A /* icon.png */; };
+		88A780D218ACC14100CE0B8A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A780AA18ACC14100CE0B8A /* icon@2x.png */; };
+		88A780D318ACC14100CE0B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780AB18ACC14100CE0B8A /* main.m */; };
+		88A780D418ACC14100CE0B8A /* MZCroppableView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88A780AC18ACC14100CE0B8A /* MZCroppableView-Info.plist */; };
+		88A780D518ACC14100CE0B8A /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780AF18ACC14100CE0B8A /* OperationViewController.m */; };
+		88A780D618ACC14100CE0B8A /* QQApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780B118ACC14100CE0B8A /* QQApiHelper.m */; };
+		88A780D718ACC14100CE0B8A /* libUMAppNetwork_4.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780B318ACC14100CE0B8A /* libUMAppNetwork_4.6.a */; };
+		88A780D818ACC14100CE0B8A /* UMUFP.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88A780B418ACC14100CE0B8A /* UMUFP.bundle */; };
+		88A780D918ACC14100CE0B8A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780BE18ACC14100CE0B8A /* libWeChatSDK.a */; };
+		88A780DB18ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88A780C218ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle */; };
+		88A780DC18ACC14100CE0B8A /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780C518ACC14100CE0B8A /* TKAlertCenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88A780DD18ACC14100CE0B8A /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780C718ACC14100CE0B8A /* UIView+TKCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88A780DE18ACC14100CE0B8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A780C918ACC14100CE0B8A /* ViewController.m */; };
+		88A780E018ACC2D800CE0B8A /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780DF18ACC2D800CE0B8A /* TencentOpenAPI.framework */; };
+		88A780E218ACC33100CE0B8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780E118ACC33100CE0B8A /* QuartzCore.framework */; };
+		88E68ACA18ACD4F300B90995 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E68AC918ACD4F300B90995 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,36 +58,48 @@
 		8887E531188A63F500398C43 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8887E533188A63FD00398C43 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		8887E535188A640300398C43 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		8887E589188AB6C100398C43 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8887E58A188AB6C100398C43 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8887E58C188AB6C100398C43 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		8887E58D188AB6C100398C43 /* MZCroppableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCroppableView.h; sourceTree = "<group>"; };
-		8887E58E188AB6C100398C43 /* MZCroppableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCroppableView.m; sourceTree = "<group>"; };
-		8887E58F188AB6C100398C43 /* UIBezierPath-Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath-Points.h"; sourceTree = "<group>"; };
-		8887E590188AB6C100398C43 /* UIBezierPath-Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath-Points.m"; sourceTree = "<group>"; };
-		8887E591188AB6C100398C43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8887E592188AB6C100398C43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8887E594188AB6C100398C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8887E595188AB6C100398C43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		8887E596188AB6C100398C43 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		8887E597188AB6C100398C43 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8887E598188AB6C100398C43 /* MZCroppableView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MZCroppableView-Info.plist"; sourceTree = "<group>"; };
-		8887E599188AB6C100398C43 /* MZCroppableView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZCroppableView-Prefix.pch"; sourceTree = "<group>"; };
-		8887E59A188AB6C100398C43 /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
-		8887E59B188AB6C100398C43 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
-		8887E59C188AB6C100398C43 /* QQApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiHelper.h; sourceTree = "<group>"; };
-		8887E59D188AB6C100398C43 /* QQApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQApiHelper.m; sourceTree = "<group>"; };
-		8887E59F188AB6C100398C43 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		8887E5A0188AB6C100398C43 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		8887E5A1188AB6C100398C43 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		8887E5A2188AB6C100398C43 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
-		8887E5A3188AB6C100398C43 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		8887E5A5188AB6C100398C43 /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
-		8887E5A6188AB6C100398C43 /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
-		8887E5A7188AB6C100398C43 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
-		8887E5A8188AB6C100398C43 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
-		8887E5A9188AB6C100398C43 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8887E5AA188AB6C100398C43 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88A7809D18ACC14100CE0B8A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88A7809E18ACC14100CE0B8A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88A780A018ACC14100CE0B8A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		88A780A118ACC14100CE0B8A /* MZCroppableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCroppableView.h; sourceTree = "<group>"; };
+		88A780A218ACC14100CE0B8A /* MZCroppableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCroppableView.m; sourceTree = "<group>"; };
+		88A780A318ACC14100CE0B8A /* UIBezierPath-Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath-Points.h"; sourceTree = "<group>"; };
+		88A780A418ACC14100CE0B8A /* UIBezierPath-Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath-Points.m"; sourceTree = "<group>"; };
+		88A780A518ACC14100CE0B8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88A780A618ACC14100CE0B8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88A780A818ACC14100CE0B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88A780A918ACC14100CE0B8A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		88A780AA18ACC14100CE0B8A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		88A780AB18ACC14100CE0B8A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A780AC18ACC14100CE0B8A /* MZCroppableView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MZCroppableView-Info.plist"; sourceTree = "<group>"; };
+		88A780AD18ACC14100CE0B8A /* MZCroppableView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZCroppableView-Prefix.pch"; sourceTree = "<group>"; };
+		88A780AE18ACC14100CE0B8A /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		88A780AF18ACC14100CE0B8A /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		88A780B018ACC14100CE0B8A /* QQApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiHelper.h; sourceTree = "<group>"; };
+		88A780B118ACC14100CE0B8A /* QQApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQApiHelper.m; sourceTree = "<group>"; };
+		88A780B318ACC14100CE0B8A /* libUMAppNetwork_4.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMAppNetwork_4.6.a; sourceTree = "<group>"; };
+		88A780B418ACC14100CE0B8A /* UMUFP.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMUFP.bundle; sourceTree = "<group>"; };
+		88A780B518ACC14100CE0B8A /* UMUFPBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPBadgeView.h; sourceTree = "<group>"; };
+		88A780B618ACC14100CE0B8A /* UMUFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPBannerView.h; sourceTree = "<group>"; };
+		88A780B718ACC14100CE0B8A /* UMUFPGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPGridCell.h; sourceTree = "<group>"; };
+		88A780B818ACC14100CE0B8A /* UMUFPGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPGridView.h; sourceTree = "<group>"; };
+		88A780B918ACC14100CE0B8A /* UMUFPHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPHandleView.h; sourceTree = "<group>"; };
+		88A780BA18ACC14100CE0B8A /* UMUFPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPImageView.h; sourceTree = "<group>"; };
+		88A780BB18ACC14100CE0B8A /* UMUFPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPTableView.h; sourceTree = "<group>"; };
+		88A780BC18ACC14100CE0B8A /* UMUFPWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUFPWebView.h; sourceTree = "<group>"; };
+		88A780BE18ACC14100CE0B8A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		88A780BF18ACC14100CE0B8A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		88A780C018ACC14100CE0B8A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		88A780C218ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		88A780C418ACC14100CE0B8A /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		88A780C518ACC14100CE0B8A /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		88A780C618ACC14100CE0B8A /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		88A780C718ACC14100CE0B8A /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		88A780C818ACC14100CE0B8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88A780C918ACC14100CE0B8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88A780DF18ACC2D800CE0B8A /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		88A780E118ACC33100CE0B8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88E68AC918ACD4F300B90995 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +107,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8887E5B8188AB6C100398C43 /* libWeChatSDK.a in Frameworks */,
+				88A780E218ACC33100CE0B8A /* QuartzCore.framework in Frameworks */,
+				88A780D918ACC14100CE0B8A /* libWeChatSDK.a in Frameworks */,
 				8887E536188A640300398C43 /* libz.dylib in Frameworks */,
 				8887E534188A63FD00398C43 /* libstdc++.dylib in Frameworks */,
 				8887E532188A63F500398C43 /* CoreTelephony.framework in Frameworks */,
 				8887E528188A636900398C43 /* libsqlite3.dylib in Frameworks */,
+				88A780D718ACC14100CE0B8A /* libUMAppNetwork_4.6.a in Frameworks */,
 				042E4F34183B056400C3446A /* CoreGraphics.framework in Frameworks */,
 				8887E530188A63E200398C43 /* SystemConfiguration.framework in Frameworks */,
 				8887E52E188A63D500398C43 /* libiconv.dylib in Frameworks */,
 				8887E52C188A63CA00398C43 /* Security.framework in Frameworks */,
+				88A780E018ACC2D800CE0B8A /* TencentOpenAPI.framework in Frameworks */,
 				8887E52A188A637700398C43 /* CFNetwork.framework in Frameworks */,
-				8887E5B9188AB6C100398C43 /* TencentOpenAPI.framework in Frameworks */,
 				88728C73188906E50087BA9B /* AssetsLibrary.framework in Frameworks */,
 				042E4F30183B056400C3446A /* UIKit.framework in Frameworks */,
 				042E4F32183B056400C3446A /* Foundation.framework in Frameworks */,
@@ -114,7 +132,7 @@
 		042E4F23183B056400C3446A = {
 			isa = PBXGroup;
 			children = (
-				8887E588188AB6C100398C43 /* MZCroppableView */,
+				88A7809C18ACC14100CE0B8A /* MZCroppableView */,
 				042E4F2E183B056400C3446A /* Frameworks */,
 				042E4F2D183B056400C3446A /* Products */,
 			);
@@ -131,6 +149,7 @@
 		042E4F2E183B056400C3446A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88A780E118ACC33100CE0B8A /* QuartzCore.framework */,
 				88728C72188906E50087BA9B /* AssetsLibrary.framework */,
 				8887E535188A640300398C43 /* libz.dylib */,
 				8887E533188A63FD00398C43 /* libstdc++.dylib */,
@@ -147,63 +166,82 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8887E588188AB6C100398C43 /* MZCroppableView */ = {
+		88A7809C18ACC14100CE0B8A /* MZCroppableView */ = {
 			isa = PBXGroup;
 			children = (
-				8887E589188AB6C100398C43 /* AppDelegate.h */,
-				8887E58A188AB6C100398C43 /* AppDelegate.m */,
-				8887E58B188AB6C100398C43 /* Classes */,
-				8887E591188AB6C100398C43 /* Default.png */,
-				8887E592188AB6C100398C43 /* Default@2x.png */,
-				8887E593188AB6C100398C43 /* InfoPlist.strings */,
-				8887E595188AB6C100398C43 /* icon.png */,
-				8887E596188AB6C100398C43 /* icon@2x.png */,
-				8887E597188AB6C100398C43 /* main.m */,
-				8887E598188AB6C100398C43 /* MZCroppableView-Info.plist */,
-				8887E599188AB6C100398C43 /* MZCroppableView-Prefix.pch */,
-				8887E59A188AB6C100398C43 /* OperationViewController.h */,
-				8887E59B188AB6C100398C43 /* OperationViewController.m */,
-				8887E59C188AB6C100398C43 /* QQApiHelper.h */,
-				8887E59D188AB6C100398C43 /* QQApiHelper.m */,
-				8887E59E188AB6C100398C43 /* SDKExport */,
-				8887E5A2188AB6C100398C43 /* TencentOpenAPI.framework */,
-				8887E5A3188AB6C100398C43 /* TencentOpenApi_IOS_Bundle.bundle */,
-				8887E5A4188AB6C100398C43 /* TKAlertCenter */,
-				8887E5A9188AB6C100398C43 /* ViewController.h */,
-				8887E5AA188AB6C100398C43 /* ViewController.m */,
+				88A7809D18ACC14100CE0B8A /* AppDelegate.h */,
+				88A7809E18ACC14100CE0B8A /* AppDelegate.m */,
+				88A7809F18ACC14100CE0B8A /* Classes */,
+				88A780A518ACC14100CE0B8A /* Default.png */,
+				88E68AC918ACD4F300B90995 /* Default-568h@2x.png */,
+				88A780A618ACC14100CE0B8A /* Default@2x.png */,
+				88A780A718ACC14100CE0B8A /* InfoPlist.strings */,
+				88A780A918ACC14100CE0B8A /* icon.png */,
+				88A780AA18ACC14100CE0B8A /* icon@2x.png */,
+				88A780AB18ACC14100CE0B8A /* main.m */,
+				88A780AC18ACC14100CE0B8A /* MZCroppableView-Info.plist */,
+				88A780AD18ACC14100CE0B8A /* MZCroppableView-Prefix.pch */,
+				88A780AE18ACC14100CE0B8A /* OperationViewController.h */,
+				88A780AF18ACC14100CE0B8A /* OperationViewController.m */,
+				88A780B018ACC14100CE0B8A /* QQApiHelper.h */,
+				88A780B118ACC14100CE0B8A /* QQApiHelper.m */,
+				88A780B218ACC14100CE0B8A /* SDK */,
+				88A780BD18ACC14100CE0B8A /* SDKExport */,
+				88A780C218ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle */,
+				88A780C318ACC14100CE0B8A /* TKAlertCenter */,
+				88A780C818ACC14100CE0B8A /* ViewController.h */,
+				88A780C918ACC14100CE0B8A /* ViewController.m */,
 			);
 			path = MZCroppableView;
 			sourceTree = "<group>";
 		};
-		8887E58B188AB6C100398C43 /* Classes */ = {
+		88A7809F18ACC14100CE0B8A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8887E58C188AB6C100398C43 /* 1.jpg */,
-				8887E58D188AB6C100398C43 /* MZCroppableView.h */,
-				8887E58E188AB6C100398C43 /* MZCroppableView.m */,
-				8887E58F188AB6C100398C43 /* UIBezierPath-Points.h */,
-				8887E590188AB6C100398C43 /* UIBezierPath-Points.m */,
+				88A780A018ACC14100CE0B8A /* 1.jpg */,
+				88A780A118ACC14100CE0B8A /* MZCroppableView.h */,
+				88A780A218ACC14100CE0B8A /* MZCroppableView.m */,
+				88A780A318ACC14100CE0B8A /* UIBezierPath-Points.h */,
+				88A780A418ACC14100CE0B8A /* UIBezierPath-Points.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		8887E59E188AB6C100398C43 /* SDKExport */ = {
+		88A780B218ACC14100CE0B8A /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				8887E59F188AB6C100398C43 /* libWeChatSDK.a */,
-				8887E5A0188AB6C100398C43 /* WXApi.h */,
-				8887E5A1188AB6C100398C43 /* WXApiObject.h */,
+				88A780B318ACC14100CE0B8A /* libUMAppNetwork_4.6.a */,
+				88A780B418ACC14100CE0B8A /* UMUFP.bundle */,
+				88A780B518ACC14100CE0B8A /* UMUFPBadgeView.h */,
+				88A780B618ACC14100CE0B8A /* UMUFPBannerView.h */,
+				88A780B718ACC14100CE0B8A /* UMUFPGridCell.h */,
+				88A780B818ACC14100CE0B8A /* UMUFPGridView.h */,
+				88A780B918ACC14100CE0B8A /* UMUFPHandleView.h */,
+				88A780BA18ACC14100CE0B8A /* UMUFPImageView.h */,
+				88A780BB18ACC14100CE0B8A /* UMUFPTableView.h */,
+				88A780BC18ACC14100CE0B8A /* UMUFPWebView.h */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		88A780BD18ACC14100CE0B8A /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				88A780DF18ACC2D800CE0B8A /* TencentOpenAPI.framework */,
+				88A780BE18ACC14100CE0B8A /* libWeChatSDK.a */,
+				88A780BF18ACC14100CE0B8A /* WXApi.h */,
+				88A780C018ACC14100CE0B8A /* WXApiObject.h */,
 			);
 			path = SDKExport;
 			sourceTree = "<group>";
 		};
-		8887E5A4188AB6C100398C43 /* TKAlertCenter */ = {
+		88A780C318ACC14100CE0B8A /* TKAlertCenter */ = {
 			isa = PBXGroup;
 			children = (
-				8887E5A5188AB6C100398C43 /* TKAlertCenter.h */,
-				8887E5A6188AB6C100398C43 /* TKAlertCenter.m */,
-				8887E5A7188AB6C100398C43 /* UIView+TKCategory.h */,
-				8887E5A8188AB6C100398C43 /* UIView+TKCategory.m */,
+				88A780C418ACC14100CE0B8A /* TKAlertCenter.h */,
+				88A780C518ACC14100CE0B8A /* TKAlertCenter.m */,
+				88A780C618ACC14100CE0B8A /* UIView+TKCategory.h */,
+				88A780C718ACC14100CE0B8A /* UIView+TKCategory.m */,
 			);
 			path = TKAlertCenter;
 			sourceTree = "<group>";
@@ -259,14 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8887E5BA188AB6C100398C43 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				8887E5B0188AB6C100398C43 /* Default@2x.png in Resources */,
-				8887E5B5188AB6C100398C43 /* MZCroppableView-Info.plist in Resources */,
-				8887E5B2188AB6C100398C43 /* icon.png in Resources */,
-				8887E5B1188AB6C100398C43 /* InfoPlist.strings in Resources */,
-				8887E5AC188AB6C100398C43 /* 1.jpg in Resources */,
-				8887E5AF188AB6C100398C43 /* Default.png in Resources */,
-				8887E5B3188AB6C100398C43 /* icon@2x.png in Resources */,
+				88A780CF18ACC14100CE0B8A /* Default@2x.png in Resources */,
+				88A780D818ACC14100CE0B8A /* UMUFP.bundle in Resources */,
+				88A780D418ACC14100CE0B8A /* MZCroppableView-Info.plist in Resources */,
+				88E68ACA18ACD4F300B90995 /* Default-568h@2x.png in Resources */,
+				88A780D118ACC14100CE0B8A /* icon.png in Resources */,
+				88A780D018ACC14100CE0B8A /* InfoPlist.strings in Resources */,
+				88A780CB18ACC14100CE0B8A /* 1.jpg in Resources */,
+				88A780DB18ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				88A780CE18ACC14100CE0B8A /* Default.png in Resources */,
+				88A780D218ACC14100CE0B8A /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,25 +317,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8887E5BD188AB6C100398C43 /* ViewController.m in Sources */,
-				8887E5AD188AB6C100398C43 /* MZCroppableView.m in Sources */,
-				8887E5BB188AB6C100398C43 /* TKAlertCenter.m in Sources */,
-				8887E5AB188AB6C100398C43 /* AppDelegate.m in Sources */,
-				8887E5B6188AB6C100398C43 /* OperationViewController.m in Sources */,
-				8887E5B4188AB6C100398C43 /* main.m in Sources */,
-				8887E5B7188AB6C100398C43 /* QQApiHelper.m in Sources */,
-				8887E5AE188AB6C100398C43 /* UIBezierPath-Points.m in Sources */,
-				8887E5BC188AB6C100398C43 /* UIView+TKCategory.m in Sources */,
+				88A780DE18ACC14100CE0B8A /* ViewController.m in Sources */,
+				88A780CC18ACC14100CE0B8A /* MZCroppableView.m in Sources */,
+				88A780DC18ACC14100CE0B8A /* TKAlertCenter.m in Sources */,
+				88A780CA18ACC14100CE0B8A /* AppDelegate.m in Sources */,
+				88A780D518ACC14100CE0B8A /* OperationViewController.m in Sources */,
+				88A780D318ACC14100CE0B8A /* main.m in Sources */,
+				88A780D618ACC14100CE0B8A /* QQApiHelper.m in Sources */,
+				88A780CD18ACC14100CE0B8A /* UIBezierPath-Points.m in Sources */,
+				88A780DD18ACC14100CE0B8A /* UIView+TKCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8887E593188AB6C100398C43 /* InfoPlist.strings */ = {
+		88A780A718ACC14100CE0B8A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8887E594188AB6C100398C43 /* en */,
+				88A780A818ACC14100CE0B8A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -328,7 +368,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -352,7 +392,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -366,6 +406,7 @@
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView",
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView,
+					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDKExport,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZCroppableView/MZCroppableView-Prefix.pch";
@@ -375,6 +416,7 @@
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView/SDKExport",
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDKExport,
+					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -388,6 +430,7 @@
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView",
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView,
+					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDKExport,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZCroppableView/MZCroppableView-Prefix.pch";
@@ -397,6 +440,7 @@
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView/SDKExport",
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDKExport,
+					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

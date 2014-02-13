@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+#define UMAPPKEY @"52fc95005ff834d0b68bd924"
+
 #endif

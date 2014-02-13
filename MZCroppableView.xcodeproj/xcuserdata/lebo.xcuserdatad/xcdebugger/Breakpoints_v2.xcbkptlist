@@ -16,16 +16,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MZCroppableView/OperationViewController.m"
-            timestampString = "411723739.057887"
+            timestampString = "413978716.858951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
-            landmarkName = "-cropButtonTapped:"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-image:didFinishSavingWithError:contextInfo:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
