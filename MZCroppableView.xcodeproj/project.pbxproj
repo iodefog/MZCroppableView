@@ -42,6 +42,7 @@
 		88A780E018ACC2D800CE0B8A /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780DF18ACC2D800CE0B8A /* TencentOpenAPI.framework */; };
 		88A780E218ACC33100CE0B8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A780E118ACC33100CE0B8A /* QuartzCore.framework */; };
 		88E68ACA18ACD4F300B90995 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E68AC918ACD4F300B90995 /* Default-568h@2x.png */; };
+		88E68ACF18ACDFF700B90995 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E68ACE18ACDFF700B90995 /* icon-60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		88A780DF18ACC2D800CE0B8A /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		88A780E118ACC33100CE0B8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		88E68AC918ACD4F300B90995 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88E68ACE18ACDFF700B90995 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				88A780A718ACC14100CE0B8A /* InfoPlist.strings */,
 				88A780A918ACC14100CE0B8A /* icon.png */,
 				88A780AA18ACC14100CE0B8A /* icon@2x.png */,
+				88E68ACE18ACDFF700B90995 /* icon-60@2x.png */,
 				88A780AB18ACC14100CE0B8A /* main.m */,
 				88A780AC18ACC14100CE0B8A /* MZCroppableView-Info.plist */,
 				88A780AD18ACC14100CE0B8A /* MZCroppableView-Prefix.pch */,
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A780CF18ACC14100CE0B8A /* Default@2x.png in Resources */,
+				88E68ACF18ACDFF700B90995 /* icon-60@2x.png in Resources */,
 				88A780D818ACC14100CE0B8A /* UMUFP.bundle in Resources */,
 				88A780D418ACC14100CE0B8A /* MZCroppableView-Info.plist in Resources */,
 				88E68ACA18ACD4F300B90995 /* Default-568h@2x.png in Resources */,
@@ -402,6 +406,7 @@
 		042E4F4A183B056400C3446A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView",
@@ -419,6 +424,8 @@
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4EC5E377-8341-40A5-BE8D-D809AA3F42A3";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -426,6 +433,7 @@
 		042E4F4B183B056400C3446A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/lebo/Downloads/画不规则曲线截图源码/MZCroppableView",
@@ -443,6 +451,8 @@
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0FC89E53-8359-4B94-AD78-4046971CEFEB";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

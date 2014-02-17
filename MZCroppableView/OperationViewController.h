@@ -10,7 +10,7 @@
 #import "UMUFPBannerView.h"
 
 @class MZCroppableView;
-@interface OperationViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@interface OperationViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate ,UIActionSheetDelegate>
 {
     IBOutlet UIImageView *croppingImageView;
     

@@ -67,8 +67,9 @@
     }else if (barItem.tag == 103){  // save
         [self saveCutScreen];
     }else if (barItem.tag == 104){  // weixin
-        AppDelegate *delegate = (id)[UIApplication sharedApplication].delegate;
-        [delegate sendImageContent:[self getCutScreen]];
+        UIActionSheet *mActionSheet = [[UIActionSheet alloc] initWithTitle:@"分享到微信" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"微信好友",@"微信朋友圈", nil];
+        mActionSheet.delegate = self;
+        [mActionSheet showInView:self.view];
     }else if (barItem.tag == 105){  // QQ
         [[QQApiHelper shareInstance] sendImageMessage:[self getCutScreen] preViewImage:[self getCutScreen] title:@"截图" descrition:nil];
     }
@@ -235,6 +236,24 @@
     
     NSLog(@"%s, index:%d", __PRETTY_FUNCTION__, index);
 }
+
+
+#pragma mark - UIActionSheetDelegate
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 0) {
+        AppDelegate *delegate = (id)[UIApplication sharedApplication].delegate;
+        [delegate sendImageContent:[self getCutScreen]];
+
+    }else if(buttonIndex == 1){
+        AppDelegate *delegate = (id)[UIApplication sharedApplication].delegate;
+        [delegate     changeScene:WXSceneTimeline];
+        [delegate sendImageContent:[self getCutScreen]];
+
+    }else if (buttonIndex == 2){
+    
+    }
+}
+
 
 
 @end
