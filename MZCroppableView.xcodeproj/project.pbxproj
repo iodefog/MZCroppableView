@@ -10,6 +10,8 @@
 		042E4F30183B056400C3446A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E4F2F183B056400C3446A /* UIKit.framework */; };
 		042E4F32183B056400C3446A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E4F31183B056400C3446A /* Foundation.framework */; };
 		042E4F34183B056400C3446A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E4F33183B056400C3446A /* CoreGraphics.framework */; };
+		8841CDF818B727D1009B672C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8841CDF618B727D1009B672C /* close.png */; };
+		8841CDF918B727D1009B672C /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8841CDF718B727D1009B672C /* close@2x.png */; };
 		88728C73188906E50087BA9B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88728C72188906E50087BA9B /* AssetsLibrary.framework */; };
 		8887E528188A636900398C43 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E527188A636900398C43 /* libsqlite3.dylib */; };
 		8887E52A188A637700398C43 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E529188A637700398C43 /* CFNetwork.framework */; };
@@ -50,6 +52,8 @@
 		042E4F2F183B056400C3446A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		042E4F31183B056400C3446A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		042E4F33183B056400C3446A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8841CDF618B727D1009B672C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		8841CDF718B727D1009B672C /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		88728C72188906E50087BA9B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8887E527188A636900398C43 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		8887E529188A637700398C43 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -188,6 +192,8 @@
 				88A780AF18ACC14100CE0B8A /* OperationViewController.m */,
 				88A780B018ACC14100CE0B8A /* QQApiHelper.h */,
 				88A780B118ACC14100CE0B8A /* QQApiHelper.m */,
+				8841CDF618B727D1009B672C /* close.png */,
+				8841CDF718B727D1009B672C /* close@2x.png */,
 				88A780B218ACC14100CE0B8A /* SDK */,
 				88A780BD18ACC14100CE0B8A /* SDKExport */,
 				88A780C218ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle */,
@@ -306,8 +312,10 @@
 				88A780D418ACC14100CE0B8A /* MZCroppableView-Info.plist in Resources */,
 				88E68ACA18ACD4F300B90995 /* Default-568h@2x.png in Resources */,
 				88A780D118ACC14100CE0B8A /* icon.png in Resources */,
+				8841CDF818B727D1009B672C /* close.png in Resources */,
 				88A780D018ACC14100CE0B8A /* InfoPlist.strings in Resources */,
 				88A780CB18ACC14100CE0B8A /* 1.jpg in Resources */,
+				8841CDF918B727D1009B672C /* close@2x.png in Resources */,
 				88A780DB18ACC14100CE0B8A /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				88A780CE18ACC14100CE0B8A /* Default.png in Resources */,
 				88A780D218ACC14100CE0B8A /* icon@2x.png in Resources */,
@@ -451,7 +459,7 @@
 					/Users/lebo/Desktop/iPhoneDemo/MZCroppableView/MZCroppableView/SDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0FC89E53-8359-4B94-AD78-4046971CEFEB";
+				PROVISIONING_PROFILE = "4F9BAEC1-37CD-4731-88E0-9E9595FF4D2B";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

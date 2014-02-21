@@ -54,8 +54,18 @@
     banner.delegate = (id<UMUFPBannerViewDelegate>)self;
     [self.view addSubview:banner];
     [banner requestPromoterDataInBackground];
-
+    
+    UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [closeBtn setImage:[UIImage imageNamed:@"close"] forState:UIControlStateNormal];
+    closeBtn.frame = CGRectMake(0, 0, 24, 24);
+    [closeBtn addTarget:self action:@selector(closeClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [banner addSubview:closeBtn];
 }
+
+- (void)closeClicked:(UIButton *)sender{
+    [banner removeFromSuperview];
+}
+
 
 - (void)barButtonTapped:(UIBarButtonItem *)barItem{
     if (barItem.tag == 100) {       // select
